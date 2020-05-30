@@ -1,0 +1,19 @@
+
+    {"dir" : "ltr",
+    "lang" : "en",
+    "name" : "Wolfmovies",
+    "scope" : "/",
+    "display" : "standalone",
+    "start_url" : "https://wolfmovies.xyz/",
+    "short_name" : "Wolfmovies",
+    "theme_color" : "#000000",
+    "description" : "Wolfmovies Download latest 2019 hd Hollywood , Bollywood and Dubed movies online and watch for free",
+    "orientation" : "any",
+    "background_color" : "#000000",
+    "generated" : "undefined",
+    "icons" : [
+        {
+            "src": "https://wolfmovies.xyz/ico.png",
+            "sizes": "720x720"
+        }
+    ]}

@@ -1,0 +1,93 @@
+
+#banner{
+	margin-top:2em;
+	border:none;
+}
+
+#banner img{
+	width:12%;
+}
+
+
+#sp{
+	display:grid;
+	padding:20px;
+}
+
+
+.season{
+	float:left;
+	padding:20px;
+	cursor:pointer;
+}
+
+#sp .season .hed h3{
+	color:#FFEB3B;
+	font-weight:100;
+	float:left;
+	margin:10px;
+}
+
+#sp .season .hed p{
+	color:#828282;
+	font-weight:100;
+	float:left;
+	margin:13px 20px;
+}
+
+#dl{
+	padding:20px;
+	display:block;
+	margin:0;
+}
+
+#dl table{
+	width:60%;
+}
+
+#sp .oned{
+	display:block;
+}
+
+#sp .twod{
+	display:none;
+}
+
+@media screen and (max-width:1280px) {
+	#banner{
+		margin-top:3em;
+	}
+}
+
+@media screen and (max-width:536px) {
+	
+	#sp{
+		padding:10px;
+	}
+	
+	#sp .season .hed h3{
+		font-size:15px;
+	}
+	
+	#sp .season .hed p {
+		font-size:12px;
+		
+	}
+	
+
+}
+
+@media screen and (max-width:436px) {
+	
+	.season{
+		padding:10px;
+	}
+	
+	#sp .season .hed p {
+		margin:13px 4px;
+	}
+	#sp #dl{
+		overflow-x:auto;
+		padding:0;
+	}		
+}
